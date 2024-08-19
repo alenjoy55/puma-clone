@@ -46,3 +46,11 @@
     color: white;
     background-color: black;
 }
+.grid{
+    position: relative;
+}
+.flip{
+    position: relative;
+    top: 150%;    
+    left: 40px;
+}
