@@ -41,16 +41,15 @@
     color: white;
     background-color: black;
 }
-.btn1{
+/* .btn1{
     border-radius: 30px;
     color: white;
     background-color: black;
-}
-.grid{
-    position: relative;
-}
+} */
 .flip{
-    position: relative;
-    top: 150%;    
-    left: 40px;
+    color: rgb(7, 7, 7);
+    position: absolute;
+    font-size: 40px;
+    left: 90px;
+    top: 990px;
 }
