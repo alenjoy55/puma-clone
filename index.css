@@ -98,6 +98,18 @@
     height: 97%;
     width: 100%;
   }
+  .sneak{
+    position: relative;
+  }
+  .sneak_dtls{
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    color: white;
+  }
+  .sneak_dtls h2{
+    font-size: 40px;
+  }
 
 
 
