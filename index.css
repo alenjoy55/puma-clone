@@ -32,7 +32,7 @@
 .welc{
     color: rgb(7, 7, 7);
     position: absolute;
-    font-size: 40px;
+    font-size: 50px;
     left: 90px;
     top: 300px;
 }
@@ -53,14 +53,6 @@
     left: 90px;
     top: 990px;
 }
-.grid{
-    position: relative;
-}
-.g{
-    position: absolute;
-    top: 0px;
-    left: 20px;
-}
 .ins{
     color: rgb(85, 102, 85);
     position: absolute;
@@ -69,12 +61,6 @@
     left: 155px;
     top: 567px;
  }
- .carding{
-   height: 400px;
-}
-.row{
---bs-gutter-x: 
-}
 .scroll{
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -126,5 +112,89 @@
 .fashion_dtls p{
     font-size: 25px;
 }
+.one_piece{
+  position: relative;
+}
+.op{
+  position: absolute;
+  color:white;
+  left: 50px;
+  top: 400px;
+  text-align: center;
+}
+.op h2{
+  font-size: 35;
+}
+.op p{
+  font-size: 23px;
+}
+.op .btn{
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+/* .grid{
+  display: flex;
+  background-color: white;
+}
+.g2{
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  height: auto;
+}
+.grid2{
+  display: flex;
+  background-color: white;
+}
+.g3{
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+  height: auto;
+} */
+.main-stock{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  width: 90%;
+  margin: auto;
+}
+.new-arrival-details{
+  position: relative;
+}
+.new-arrival-details i{
+  position: absolute;
+  right: 1%;
+  background-color: #f0f0f0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding-top: 7px;
+  padding-left: 7px;
+}
+.new-arrival-details .button a{
+  background-color: #f0f0f0 !important;
+color: #888888;
+text-shadow: none;
+border: 1px solid #888888;
+font-size: 10px;
+font-weight: 600;
+text-transform: uppercase;
+padding: 15px 25px;
+display: inline-block;
+line-height: 1;
+text-align: center;
+transition: all .3s;
+text-decoration: none;
+}
+.row img{
+width: 100%;
+height: 330px;
 
+}
+.new-row{
+  width: 100%;
+  height: 100px;
+  padding:0;
+}
 
