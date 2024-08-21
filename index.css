@@ -110,6 +110,21 @@
   .sneak_dtls h2{
     font-size: 40px;
   }
-
+  .fashion{
+    background-color: rgba(186, 129, 23, 0.925);
+  }
+  .fashion_dtls{
+    position: absolute;
+    color: rgba(24,24,24,255);
+    right: 70px;
+    text-align: center;
+    top: 4000px;
+}
+.fashion_dtls h2{
+    font-size: 3vw;
+}
+.fashion_dtls p{
+    font-size: 25px;
+}
 
 
