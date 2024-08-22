@@ -197,28 +197,82 @@ height: 330px;
   height: 100px;
   padding:0;
 }
-footer h6 {
-  font-weight: bold;
-  font-size: 16px;
-  margin-bottom: 1rem;
+.card{
+  border: none;
+  background-color: rgba(250,250,250,255);
+}
+.threecards{
+  display: flex;
+}
+.cards{
+  text-align: center;
+  margin: 10px 10px;
+  background-color: white;
+}
+.easy{
+  position: relative;
+  background-color: rgba(25,25,25,255);
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+}
+.easy_dtls{
+  position: absolute;
+  top: 20px;
+  color: white;
+  left: 90px;
+}
+.easy_head{
+  color: white;
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+.easy1{
+  position: absolute;
+  right: 90px;
+  top: -30px;
+}
+.easy2{
+  position: absolute;
+  top: 170px;
+  left: 90px;
 }
 
-footer a {
+footer{
+  display: flex;
+}
+.one_piece{
+  position: relative;
+}
+.op{
+  position: absolute;
+  color: black;
+  left: 50px;
+  top: 400px;
+  text-align: center;
+}
+.op h2{
+  font-size: 35px;
+}
+.op p{
+  font-size: 23px;
+}
+.op .btn{
+  background-color:black;
+}
+footer a{
   text-decoration: none;
+  color: rgb(162, 162, 162);
+  font-size: small;
 }
-footer .btn-outline-light {
-  border: 1px solid #fff;
-  margin-top: 1rem;
+footer h6{
+  font-weight: bold;
 }
-
-footer .fa {
-  font-size: 1.25rem;
+footer  a:hover{
+  color: white;
 }
-
-footer .fa:hover {
-  color: #fafafa;
-}
-.col-lg-2 {
-  font-size: 12px;
-  line-height: 20px;
+footer img{
+  padding: 5px;
+  margin-bottom: 5px;
 }
