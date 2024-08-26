@@ -320,9 +320,6 @@ footer img{
   .g2{
     
   }
-.row{
-  text-align: center;
-}
 .op{
   top: 3%;
   left: 2%;
@@ -347,6 +344,16 @@ footer img{
   font-size: 3vw;
 }
 .op1 a{
+  font-size: 2vw;
+}
+.fashion_dtls{
+  top: 330%;
+  right: 60%;
+}
+.fashion_dtls p{
+  font-size: 2vw;
+}
+.fashion_dtls a{
   font-size: 2vw;
 }
 }
