@@ -246,20 +246,20 @@ footer{
 .one_piece{
   position: relative;
 }
-.op{
+.op1{
   position: absolute;
   color: black;
   left: 50px;
   top: 400px;
   text-align: center;
 }
-.op h2{
+.op1 h2{
   font-size: 35px;
 }
-.op p{
+.op1 p{
   font-size: 23px;
 }
-.op .btn{
+.op1 .btn{
   background-color:black;
 }
 footer a{
@@ -278,5 +278,75 @@ footer img{
   margin-bottom: 5px;
 }
 @media only screen and (max-width:576px){
- 
+  .welc{
+    top: 30%;
+    left: 5%;
+  }
+  .welc h2{
+    font-size: 3vw;
+  }
+  .welc p{
+    font-size: 2vw;
+  }
+  .welc a{
+    font-size: 2vw;
+  }
+  .flip {
+    top: 70%;
+    left: 5%;
+  }
+  .flip h2{
+    font-size: 2vw;
+  }
+  .flip p{
+    font-size: 2vw;
+  }
+  .flip a{
+    font-size: 2vw;
+  }
+  .sneak_dtls h2{
+    font-size: 3vw;
+  }
+  .sneak_dtls{
+    top: 20%;
+    right: 5%;
+  }
+  .threecards{
+    display: block;
+  }
+  .grid{
+    display: block;
+  }
+  .g2{
+    
+  }
+.row{
+  text-align: center;
+}
+.op{
+  top: 3%;
+  left: 2%;
+}
+.op h2{
+  font-size: 3vw;
+}
+.op p{
+  font-size: 3vw;
+}
+.op a{
+  font-size: 2vw;
+}
+.op1{
+  top: 3%;
+  left: 2%;
+}
+.op1 h2{
+  font-size: 3vw;
+}
+.op1 p{
+  font-size: 3vw;
+}
+.op1 a{
+  font-size: 2vw;
+}
 }
