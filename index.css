@@ -6,8 +6,8 @@
     color: rgb(221, 221, 221);
 }
 .srch{
-    background-color: black;
-    border-color: white;
+    background-color: rgb(248, 243, 243);
+    border-color: rgba(30, 75, 172, 0.89);
     color: white;
     width: 150px;
     height: 40px;
@@ -51,7 +51,7 @@
     position: absolute;
     font-size: 40px;
     left: 90px;
-    top: 990px;
+    top: 1108px;
 }
 .ins{
     color: rgb(85, 102, 85);
@@ -208,6 +208,7 @@ height: 330px;
   text-align: center;
   margin: 10px 10px;
   background-color: white;
+  left: 40px;
 }
 .easy{
   position: relative;
@@ -275,4 +276,7 @@ footer  a:hover{
 footer img{
   padding: 5px;
   margin-bottom: 5px;
+}
+@media only screen and (max-width:576px){
+ 
 }
