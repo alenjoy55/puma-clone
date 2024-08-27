@@ -208,7 +208,7 @@ height: 330px;
   text-align: center;
   margin: 10px 10px;
   background-color: white;
-  left: 40px;
+  left: 4px;
 }
 .easy{
   position: relative;
@@ -277,7 +277,7 @@ footer img{
   padding: 5px;
   margin-bottom: 5px;
 }
-@media only screen and (max-width:576px){
+@media only screen and (max-width:578px){
   .welc{
     top: 30%;
     left: 5%;
@@ -290,6 +290,9 @@ footer img{
   }
   .welc a{
     font-size: 2vw;
+  }
+  .main1{
+    height: 590px;
   }
   .flip {
     top: 70%;
